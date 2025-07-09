@@ -12,7 +12,7 @@ export default function TrackVehicle() {
     const [startRender, setStartRender] = useState(false);
     const [rerender, setRerender] = useState(false);
 
-    const socketUrl = `http://${json.ipAddress}:8000`
+    const socketUrl = `https://automobile-leasing-system.onrender.com`
     const socketRef = useRef(null);
 
     const appState = useSelector((state) => state.appstate.login_info);
