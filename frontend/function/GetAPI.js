@@ -1,12 +1,11 @@
 import { useState } from "react";
-import json from "../env.json"
 
 const useFetch = () => {
     const [responseData, setResponseData] = useState([]);
     const [isLoadingApi, setisLoading] = useState(false);
     const [fetchError, setFetchError] = useState(null);
     const [apiKey, setApiKey] = useState(null);
-    const baseURI = `http://${json.ipAddress}:8000`
+    const baseURI = `https://automobile-leasing-system.onrender.com`
 
     const serverRequest = (serverRequestParam) => {
         const fetchURL = `${baseURI}${serverRequestParam.apiUrl}`;
