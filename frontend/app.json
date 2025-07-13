@@ -1,24 +1,24 @@
 {
   "expo": {
-    "name": "frontend",
-    "slug": "frontend",
+    "name": "Automobile Leasing System",
+    "slug": "Automobile Leasing System",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "icon": "./assets/img/icon.jpg",
+    "userInterfaceStyle": "black",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/img/logo2.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#01050D"
     },
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff",
+        "foregroundImage": "./assets/img/icon.jpg",
+        "backgroundColor": "#01050D",
         "permissions": [
           "ACCESS_FINE_LOCATION",
           "ACCESS_COARSE_LOCATION",
@@ -32,7 +32,7 @@
     },
     "extra": {
       "eas": {
-        "projectId": "44282a6e-8efd-4ca9-ac26-eddee2b35de6"
+        "projectId": "a509edd9-ac4d-4180-9c1a-4694f1ea4655"
       }
     }
   }

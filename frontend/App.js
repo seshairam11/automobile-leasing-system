@@ -18,6 +18,7 @@ import DeleteTracking from './screens/DeleteTracking';
 import OrderIOT from './screens/OrderIOT';
 import DeviceList from './screens/DeviceList';
 
+
 const Stack = createStackNavigator();
 const navigationRef = React.createRef();
 
@@ -35,11 +36,16 @@ const App = () => {
     }, 100);
   }, []);
 
-  return (
+  useEffect(() => {
+    console.log("✅ useEffect in App called");
+  }, []);
 
+
+  return (
     <SafeAreaView style={styles.container}>
       <StatusBar
-        barStyle={'light-content'}
+        backgroundColor="black"
+        barStyle="light-content"
       />
       <NavigationContainer ref={navigationRef} onStateChange={() => setCurrentRoute(GetCurrentRouteName())}>
         {currentRoute !== 'entry' && <Header />}
@@ -61,7 +67,6 @@ const App = () => {
         </View>
       </NavigationContainer>
     </SafeAreaView>
-
   );
 };
 

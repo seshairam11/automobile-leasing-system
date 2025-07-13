@@ -150,7 +150,7 @@ const MapScreen = ({ navigation, route }) => {
   const [renterLocation, setRenterLocation] = useState([]);
   const [render, setRender] = useState([]);
 
-  const socketUrl = `https://automobile-leasing-system.onrender.com`
+  const socketUrl = "https://automobile-leasing-system.onrender.com"
   const socketRef = useRef(null);
   const mapRef = useRef();
   const currentLocationRef = useRef();

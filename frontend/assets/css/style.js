@@ -2,7 +2,7 @@ import { StyleSheet } from 'react-native';
 
 export const styles = StyleSheet.create({
     header: {
-        height: 80,
+        height: 70,
         backgroundColor: "#01050D",
         display: "flex",
         flexDirection: "row",

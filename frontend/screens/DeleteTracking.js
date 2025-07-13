@@ -15,7 +15,7 @@ export default function DeleteTracking() {
     const [startRender, setStartRender] = useState(false);
     const [rerender, setRerender] = useState(false);
 
-    const socketUrl = `https://automobile-leasing-system.onrender.com`
+    const socketUrl = "https://automobile-leasing-system.onrender.com"
     const socketRef = useRef(null);
     const ctlAttribute = useRef([])
 
